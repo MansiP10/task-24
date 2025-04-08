@@ -1,0 +1,64 @@
+.payment-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+  }
+  
+  .payment-method {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .payment-method label {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .payment-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-details {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 400px;
+  }
+  
+  .card-details label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .card-details input {
+    width: 250px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  .confirm-btn {
+    margin-top: 15px;
+    padding: 10px 30px;
+    background-color: #c3b89f;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #b1a78c;
+  }

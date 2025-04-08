@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgba(223, 219, 219, 0.952);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 3em;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a floating effect */
+    z-index: 1;
+}
+
+.header img{
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
