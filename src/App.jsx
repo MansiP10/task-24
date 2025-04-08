@@ -1,11 +1,11 @@
 
-import Header from "./header/header";
+import Header from "./Header/Header.jsx";
 import "./App.css";
 import Categories from "./Categories";
 import Home from "./Home";
 import { BrowserRouter,Routes, Route } from "react-router-dom";
 import About from "./About";
-import Payment from "./payment/payment";
+import Payment from "./Payment/Payment.jsx";
 import { CartProvider } from "./context/CartContext.jsx";
 
 function App() {
