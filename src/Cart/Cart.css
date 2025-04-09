@@ -19,6 +19,10 @@
     gap: 1.2em;
     padding: 20px 10px;
 }
+
+.cart-item >div{
+    flex: 1;
+}
 .cart-desc{
     display: flex;
     flex-direction: column;
@@ -42,11 +46,16 @@
 .quantity-controls{
     display: flex;
     align-items: end;
-    justify-content: space-around;
-    gap: 5px;
+    justify-content: space-between;
+}
+
+.quantity-controls >div{
+    display: flex;
+    gap: 10px;
 }
 
 .quantity-controls button{
+    display: flex;
     background-color: rgb(211, 134, 90);
     border-radius: 8px;
     padding: 0.5em;
@@ -56,7 +65,7 @@
 }
 
 .proceed-to-pay-btn{
-    background-color: rgb(211, 134, 90);
+    background-color: rgb(172, 123, 95);
     border-radius: 80px;
     padding: 10px 30px;
     color: white;
